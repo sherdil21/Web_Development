@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bills & Payment</title>
+</head>
+<body>
+    <h1>Pay your Bill</h1>
+    <hr>
+    <h4>Fill your personal information</h4>
+    <form action="">
+        <div>Name: <input type="text" name="name" id="name" required> </div>
+        <p>Gender: </p>
+        <div >
+            Male <input type="radio" name="gender" id="Male" required>
+            female<input type="radio" name="gender" id="Female"required>
+        </div>
+        <br>
+        <div>Email: <input type="email" name="email" id="email" required> </div>
+        <br>
+    
+        <div>Postel code: <input type="number" name="name" id="name" required> </div> <br>
+        <div>Address: <textarea name="Address" id="Address" cols="40" rows="10"></textarea></div> <br>
+        <hr>
+        <h4>Choose Bank And fill detail</h4>
+        <div>Card:  <select name="Bank_name" id="Bank_name" required>
+            <option value="">--Choose the card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="HBL">HBL</option>
+            <option value="PAYPAL">PAYPAL</option>
+        </select> </div>
+<br>
+        <div>Card No: <input type="number" name="card_number" id="card_number" required></div>
+        <br>
+        <div>Expiry date: <input type="date" name="Expiry-date" id="Expiry-date" required></div>
+        <br>
+        <div>Password: <input type="password" name="main_password" id="main_password" required> </div>
+<br>
+        <input type="submit" > 
+        <input type="reset"     value="Reset">
+    </form>
+</body>
+</html>
